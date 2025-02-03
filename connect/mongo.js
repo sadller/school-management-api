@@ -1,7 +1,7 @@
 const mongoose      = require('mongoose');
 mongoose.Promise    = global.Promise;
 
-module.exports = ({uri})=>{
+module.exports = async ({uri})=>{
   //database connection
   mongoose.connect(uri, {
     useNewUrlParser: true,
