@@ -26,7 +26,6 @@ export default [
       'no-unused-vars': 'off',
       'no-useless-escape': 'off',
       'no-prototype-builtins': 'off',
-      'no-undef': 'off',
       'no-redeclare': 'off',
       'eqeqeq': 'off',
     },
